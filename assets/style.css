@@ -62,17 +62,3 @@ section .wave.wave4 {
 	top: 50%;
 	z-index: 5;
 }
-p {
-	position: fixed;
-	font-size: 22px;
-	right: 2%;
-	bottom: 2%;
-	text-decoration: none;
-	color: red;
-	transition: color 0.5s linear;
-	z-index: 5;
-}
-p:hover {
-	color: blue;
-	cursor: pointer;
-}

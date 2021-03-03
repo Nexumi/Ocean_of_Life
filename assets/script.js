@@ -1,7 +1,6 @@
 window.addEventListener('load', view);
 window.addEventListener('load', offset);
 window.addEventListener('resize', offset);
-document.getElementById("credits").addEventListener('click', soon);
 var OoL = document.getElementById("OoL");
 OoL.volume = 0.5;
 
@@ -19,8 +18,4 @@ function offset() {
 
 function view() {
 	OoL.style.display = "block";
-}
-
-function soon() {
-	alert("=Under Construction=\nPlease check back in a few days.");
 }
